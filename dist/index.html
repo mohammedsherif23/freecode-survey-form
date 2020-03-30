@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+  <div>
+      <h1 id="title">Wuchang University Survey form</h1>
+      <p id="description">Thanks for filling out this form..</p>  
+    </div>
+  <main>
+    <section>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        
+        <label id="email-label">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <label id="number-label">Number</label> 
+          <input type="number" id="number" name="number" max="9" min="0" placeholder="Enter your number" required>
+        
+  <fieldset>
+    <legend>What's your major?</legend>
+    <select id="dropdown">
+      <option value="select an option" selected>Select an option</option> 
+      <option value="Computer Science">Computer Science</value>
+      <option value="Civil Engineering">Civil Engineering</value>
+      <option value="Marketing">Marketing</value>
+      <option value="Business">Business</value>
+      <option value="Accounting">Accounting</value>
+    </select>
+        </fieldset>
+<fieldset>
+  <legend>Would you recommend Wuchang University to a friend?</legend>
+    <label>
+      <input type="radio" name="becks" value="yes">Yes
+</label>
+ <label>
+      <input type="radio" name="becks" value="no">No
+</label>
+ <label>
+      <input type="radio" name="becks" value="maybe">Maybe
+</label>
+ <label>
+      <input type="radio" name="becks" value="not sure">Not sure
+</label>
+</fieldset>
+
+<fieldset>
+  <legend>What are your favorite place on WUT Campus?</legend>
+  <label>
+      <input type="checkbox" name="checkbox" value="Library">Library
+</label>
+  <label>
+      <input type="checkbox" name="checkbox" value="fooball pitch">Football Pitch
+</label>
+  <label>
+      <input type="checkbox" name="checkbox" value="table tennis court">Table Tennis Court
+</label>
+  <label>
+      <input type="checkbox" name="checkbox" value="BasketBall Court">BasketBall Court
+</label>
+  <label>
+      <input type="checkbox" name="checkbox" value="gym">Gym
+</label>
+  <label>
+      <input type="checkbox" name="checkbox" value="Activities center">Activities Center
+</label>
+  </fieldset>
+        <fieldset>
+          <legend>Any Comments or surgestions?</legend>
+
+            <textarea id="textarea">Enter your text here....
+  
+           </textarea>
+         </fieldset><br>
+<button id="submit" type="submit">submit</button>
+     </form>
+   </section>
+  </main>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
